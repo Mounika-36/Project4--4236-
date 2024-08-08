@@ -1,0 +1,169 @@
+.bg-container{
+    background-image:url("Assets/back.avif");
+    background-size:cover;
+    height: 100vh;
+}
+.heading{
+    font-style: italic;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-size: 45px;
+}
+.right{
+    text-align: right;
+}
+.lite{
+    float:left;
+    margin-left: 22px;
+    margin-top: 50px;
+}
+  
+.idle{
+    float:left;
+    margin-left: 22px;
+    margin-top: 50px;
+}
+.bat{
+    float:left;
+    margin-left:22px;
+    margin-top: 50px;
+}
+.boat{
+    float: left;
+    margin-left: 22px;
+    margin-top: 50px;
+}
+.life{
+    background-image: url("Assets/ward.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.think{
+    float: center;
+    margin-top: 50px;
+
+}
+.icons{
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.men{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 50px;
+}
+.icon{
+    float: left;
+    margin-top: -5px;
+    margin-left: 50px;
+}
+.female{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+.loss{
+    float:left;
+    margin-left: 45px;
+    margin-bottom: 45px;
+    border-radius: 6px;
+    border-color: black;
+    border: 6px solid #555555;
+}
+.a{
+        float:left;
+        padding:-2px;      
+}
+.butt{
+    background-color:black;
+    color:white;
+    border-radius:50px;
+    margin-bottom: 20px;
+}
+.sun{
+    background-image: url("https://e0.pxfuel.com/wallpapers/231/344/desktop-wallpaper-fashion-fashion-design-background-fashion-clothes.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.run{
+    background-image: url("Assets/sign.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.but{
+    background-color:black;
+    color:white;
+    border-radius:50px;
+    margin-bottom: 20px;
+}
+.bun{
+    background-color:  #f68084 100%;
+}
+.b{
+    display: flex;
+}
+.a{
+    flex-direction: column;
+    text-align: center;
+}
+@media screen and (min-width:320px) {
+    body{
+        background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    }
+}
+/* Tablet,ipad */
+@media Screen and (min-width:768px) and (max-width:1024px){
+    body{
+        background-color: #DCD9D4;
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+        background-blend-mode: soft-light,screen;
+    }
+}
+/* Desktops and Laptops */
+@media Screen and (min-width:1224px) {
+    body{
+        background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    }
+}
+/* Large Screens-------*/
+@media Screen and(min-width:1824px){
+  body{
+    background-color: rgb(101, 51, 208);
+  }
+}
+/* Desktops and Laptops */
+@media Screen and (min-width:1224px) {
+    .column{
+        float:left;
+        padding:70px;
+    }
+    .column1{
+        float:left;
+        padding:80px;
+    }
+}
+/* Large Screens-------*/
+@media Screen and(min-width:1824px){
+    .column{
+        float:left;
+        padding:70px;
+    }
+    .column1{
+        float:left;
+        padding:80px;
+    }
+}
+.and{
+    color:aliceblue;
+}
+.lash{
+    display: inline;
+    
+}
+.bind{
+    float:center;
+    margin-left: 550px;
+    margin-bottom: 45px;
+}
